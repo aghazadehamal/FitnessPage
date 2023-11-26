@@ -1,0 +1,133 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Push-Up",
+      "description": "Qol və sinə əzələləri üçün əsas məşq."
+    }
+  ],
+
+  "squat": [
+    {
+      "id": 1,
+      "name": "Squat",
+      "description": "Squat və sinə əzələləri üçün əsas məşq."
+    }
+  ],
+
+  "squatt": [
+    {
+      "id": 1,
+      "name": "Squat",
+      "description": "Squat ayaqlar, ombalar və əsas nahiyə üçün əsas güc məşqidir. Bu məşq ayaq üstə vəziyyətdən başlayaraq dizləri bükərək və ombaları geri itələməklə, stulda oturmuş kimi alçaq vəziyyətə enərək həyata keçirilir. Sonra geri qayıdır. başlanğıc vəziyyətinə. Çömbəlmə ayaqlar və kalçalar üçün güc məşqidir. O, gücü təmin edir, həmçinin əsas sabitliyi və ümumi bədən tarazlığını yaxşılaşdırır. Daimi məşq gündəlik fəaliyyətlərdə atletik performansı və funksionallığı artıra bilər. Çömbəlmə, müxtəlif varyasyonları ilə müxtəlif səviyyəli fərdlər üçün uyğundur və çətinlik səviyyəsi əlavə çəki istifadə etməklə artırıla bilər."
+    }
+  ],
+  
+
+
+  "PushUp": [
+    {
+      "id": 1,
+      "name": "Push-Up",
+      "description": "Qol və sinə əzələləri üçün əsas məşq. Üzü yerə uzanaraq, əlləri çiyin genişliyinə qoyaraq başlayın. Sinə demək olar ki, yerə toxunmaq üçün aşağı salınır və sonra yuxarı itələnir. Bu hərəkət yuxarı bədən gücünü artırır və əsas sabitliyi yaxşılaşdırır. Həm evdə, həm də idman zalında asanlıqla edilə bilər və əlavə avadanlıq tələb etmir. Başlanğıc səviyyəsində dizlərdə edilə bilər və zaman keçdikcə çətinlik səviyyəsi artırıla bilər."
+    }
+  ],
+  
+
+
+  "nutritionPlans": [
+    {
+      "id": 1,
+      "title": "Çəki Vermə Planı",
+      "description": "Aşağı kalorili, balanslaşdırılmış yeməklərlə planlaşdırın."
+    }
+  ],
+
+  "nutritionPlanss": [
+    {
+      "id": 1,
+      "title": "Çəki Alma Planı",
+      "description": "Aşağı kalorili, balanslaşdırılmış yeməklərlə planlaşdırın."
+    }
+  ],
+
+
+  "NutritionPlanDetail": [
+    {
+      "id": 1,
+      "title": "Çəki Vermə Planı",
+      "description": "Aşağı kalorili, balanslaşdırılmış yeməklərlə planlaşdırın.",
+      "meals": [
+        {
+          "mealType": "Səhər yeməyi",
+          "items": [
+            "Yulaf ezmesi, təzə meyvələr və badam südü",
+            "İspanaq və göbələk ilə yumurta ağ omlet"
+          ]
+        },
+        {
+          "mealType": "Nahar",
+          "items": [
+            "Toyuq sinə əti, qarışıq yaşıl salat və quinoa",
+            "Avokado və limon suyu ilə tuna salatı"
+          ]
+        },
+        {
+          "mealType": "Axşam yeməyi",
+          "items": [
+            "Qril qızılbalığı, brokoli və şirin kartof",
+            "Qırmızı mərci şorbası yan tərəfdə tam buğda çörəyi ilə"
+          ]
+        },
+        {
+          "mealType": "Qəlyanaltı",
+          "items": [
+            "Təzə meyvələr və ya qoz-fındıq",
+            "Yoğurt və çiy badam"
+          ]
+        }
+      ]
+    }
+  ],
+
+  
+    "ChekiAlmaDetail": [
+      {
+        "id": 1,
+        "title": "Çəki Alma Planı",
+        "description": "Yüksək kalorili və qidalanma baxımından yüksək yeməklərdən ibarət plan.",
+        "meals": [
+          {
+            "mealType": "Səhər yeməyi",
+            "items": [
+              "Tam yağlı süd ilə hazırlanmış granola ve yoğurt, təzə meyvələrlə",
+              "Avokado ve pendirli omlet, tam taxıllı çörək ilə"
+            ]
+          },
+          {
+            "mealType": "Nahar",
+            "items": [
+              "Zeytun yağı və limon suyu ilə avokado və lobya salatı",
+              "Qrildə bişmiş toyuq sinə əti, quinoa və qarışıq tərəvəz"
+            ]
+          },
+          {
+            "mealType": "Axşam yeməyi",
+            "items": [
+              "Kremli ispanaq və düyü ilə qızılbalıq filesi",
+              "Kıyılmış ət və tərəvəz güveç, bulqur plovu ilə müşayiət olunur"
+            ]
+          },
+          {
+            "mealType": "Qəlyanaltı",
+            "items": [
+              "Fıstıq yağı və banan smoothie",
+              "Tam taxıllı krakerlər, pendir və quru meyvələr"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+

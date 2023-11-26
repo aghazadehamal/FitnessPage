@@ -1,0 +1,81 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Daha net bir font */
+  background-color: #eceff1; /* Açık gri bir arka plan rengi */
+  margin: 0;
+  padding: 0; /* Body paddingini kaldırdık */
+  color: #37474f; /* Koyu gri metin rengi */
+  font-size: 18px; /* Metin boyutunu büyüttük */
+}
+
+h1 {
+  color: #37474f;
+  text-align: center;
+  margin-top: 0.5em; /* Üst boşluğu azalttık */
+  margin-bottom: 0.5em; /* Alt boşluğu azalttık */
+  font-size: 2em; /* Başlık font boyutunu büyüttük */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px; /* Liste genişliğini sınırladık */
+  margin: auto; /* Listeyi ortalamak için */
+}
+
+li {
+  background-color: #fff;
+  margin-bottom: 20px; /* Liste öğeleri arası boşluğu artırdık */
+  padding: 30px; /* İç boşluğu artırdık */
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.1); /* Gölgeyi belirginleştirdik */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer; /* Mouse üzerine geldiğinde el işareti çıkacak */
+}
+
+li:hover {
+  transform: scale(1.03); /* Hover durumunda büyütme efekti */
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+a {
+  text-decoration: none;
+  color: #1e88e5; /* Link rengini mavi yaptık */
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1565c0; /* Hover durumunda link rengini koyulaştırdık */
+}
+
+.container {
+  width: 90%; /* Konteyner genişliğini artırdık */
+  margin: 40px auto; /* Daha fazla marjin */
+  background-color: #fff;
+  padding: 50px; /* Daha fazla padding */
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+  
+  body {
+    font-size: 16px; /* Mobil cihazlar için metin boyutunu küçülttük */
+  }
+  
+  h1 {
+    font-size: 1.5em; /* Mobil cihazlar için başlık boyutunu küçülttük */
+  }
+}
+.section-title {
+  font-size: 2em; /* Başlık font boyutu */
+  color: #333; /* Başlık rengi */
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
