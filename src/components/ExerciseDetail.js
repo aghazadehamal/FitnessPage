@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from 'react-router-dom'; // Link bileşenini içe aktar
+import { Link } from 'react-router-dom'; 
 
 function ExerciseDetail() {
   const [exercises, setExercises] = useState([]);
@@ -13,7 +13,6 @@ function ExerciseDetail() {
         return response.json();
       })
       .then((data) => {
-        // Burada data'dan egzersizleri set ediyoruz
         setExercises(data.exercises);
       })
       .catch((error) => {

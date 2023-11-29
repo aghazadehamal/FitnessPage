@@ -33,7 +33,7 @@ const MyCalendar = () => {
                 endAccessor="end"
                 onSelectSlot={handleSelect}
                 selectable
-                style={{ height: 500 }}
+                style={{ height: 400 }}
             />
         </div>
     );

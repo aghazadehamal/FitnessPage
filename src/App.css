@@ -1,3 +1,13 @@
+.backgroundImage {
+  background-image: url('https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  width: 100vw; 
+}
+
+
+
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #eceff1;
@@ -15,12 +25,7 @@ h1, .section-title {
   font-size: 1.75em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  max-width: 600px;
-  margin: 20px auto;
-}
+
 
 li {
   background-color: #fff;
@@ -66,14 +71,14 @@ a:hover {
   }
 }
 
-.goal-setting-form {
-  max-width: 600px;
+/* .goal-setting-form {
+  max-width: 300px;
   margin: 20px auto;
   padding: 20px;
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
+ 
   flex-direction: column;
   align-items: stretch;
 }
@@ -120,15 +125,84 @@ a:hover {
     margin-top: 10px;
     padding: 15px;
   }
+} */
+
+.goal-setting-form {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
 }
 
+.goal-setting-form button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+}
+
+.goal-setting-form button:hover {
+  background-color: #45a049;
+}
+
+.goal-setting-form button i {
+  margin-right: 10px;
+}
+
+.goal-setting-form form {
+  margin-top: 20px;
+}
+
+.goal-setting-form h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.goal-setting-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.goal-setting-form input[type="text"],
+.goal-setting-form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.goal-setting-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+.goal-setting-form button[type="submit"]:hover {
+  background-color: #007B9E;
+}
+
+/* 
 .nutrition-water-tracker {
   background: #ffffff;
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
+  max-width: 265px;
   width: 100%;
   box-sizing: border-box;
   margin-left: auto;
@@ -187,7 +261,86 @@ a:hover {
   .nutrition-water-tracker {
     padding: 15px;
   }
+} */
+
+
+.nutrition-water-tracker {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
 }
+
+.nutrition-water-tracker button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+}
+
+.nutrition-water-tracker button:hover {
+  background-color: #45a049;
+}
+
+.nutrition-water-tracker button i {
+  margin-right: 10px;
+}
+
+.nutrition-water-tracker form {
+  margin-top: 20px;
+}
+
+.nutrition-water-tracker h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.nutrition-water-tracker label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nutrition-water-tracker input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.nutrition-water-tracker textarea {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.nutrition-water-tracker button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+.nutrition-water-tracker button[type="submit"]:hover {
+  background-color: #007B9E;
+}
+
 
 
 .video-container {
@@ -199,4 +352,19 @@ a:hover {
   border: none; 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.education {
+ 
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+margin-top: 9px;
+font-size: 20px;
 }
